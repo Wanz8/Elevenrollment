@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.elevenlogin">
+
+    <application
+        android:name="application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/elevenrollment"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/elevenrollment"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name="presentation.GRADEActivity"></activity>
+        <activity android:name="presentation.ImgActivity" />
+        <activity android:name="presentation.SummaryActivity" />
+        <activity android:name="presentation.CreditHourActivity" />
+        <activity android:name="presentation.SuccessActivity" />
+        <activity android:name="presentation.AcademicTranscriptActivity" />
+        <activity android:name="presentation.DegreeAwardedActivity" />
+        <activity
+            android:name="presentation.AcademicProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name="presentation.FinancialActivity"
+            android:exported="false" />
+        <activity
+            android:name="presentation.LookCalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name="presentation.EformsActivity"
+            android:exported="false" />
+        <activity
+            android:name="presentation.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="presentation.HomeActivity"
+            android:exported="false" />
+        <activity android:name="presentation.SignUpActivity" />
+        <activity android:name="persistence.Utils.Result" />
+        <activity android:name="presentation.WelcomeActivity" />
+        <activity android:name="presentation.RegistrationActivity" />
+        <activity android:name="presentation.AddCourseActivity" />
+        <activity android:name="presentation.LookCourceActivity" />
+        <activity
+            android:name="presentation.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

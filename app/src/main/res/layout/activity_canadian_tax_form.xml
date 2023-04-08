@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="presentation.DegreeAwardedActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/titleColor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Degree Awarded"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="15dp"
+            android:src="@mipmap/ic_back" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tab1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View My Applications"
+        android:textColor="#5D8F87"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/sp_16" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View a list of your current applications and review modif, them"
+        android:textColor="#000"
+        android:textSize="@dimen/sp_14" />
+    <TextView
+        android:id="@+id/tb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply for Student Aid"
+        android:textColor="#5D8F87"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/sp_16" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apoly for student fid"
+        android:textColor="#000"
+        android:textSize="@dimen/sp_14" />
+    <TextView
+        android:id="@+id/tab3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="View My Student Aid"
+        android:textColor="#5D8F87"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/sp_16" />
+    <TextView
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:text="Wew details of the awarding status. Accept/Decline awards."
+        android:textColor="#000"
+        android:textSize="@dimen/sp_14" />
+</LinearLayout>
